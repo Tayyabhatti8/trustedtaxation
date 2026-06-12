@@ -1,0 +1,870 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <!--Meta-Tag-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>How It Works</title>
+    <!--font kit-->
+    <script src="https://kit.fontawesome.com/9d2c137d7e.js" crossorigin="anonymous"></script>
+    <!--google fonts-->
+    
+    <!--Bootstrap-cdns-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+     <!--fonts-->
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+     <!--style-->
+     <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+        <!--nav-bar-->
+    <nav class="navbar navbar-expand-lg">
+  <div class="container">
+    <a class="navbar-brand" href="index.php">
+      <img src="images/logo.png" class="trusted-logo">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mx-auto gap-1">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.php">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.php">About</a>
+        </li>
+        
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Services
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">
+              <div class="dd-icon">
+                  <i class="fa fa-id-card"></i>
+              </div>
+              <div class="dd-text">
+                <strong>NTN Registration</strong>
+                <p>Individual &amp; Business NTN</p>
+
+              </div>
+            </a></li>
+            <li><a class="dropdown-item" href="#">
+              <div class="dd-icon">
+                  <i class="fa fa-file-invoice-dollar"></i>
+              </div>
+              <div class="dd-text">
+             <strong>Income Tax Return Filing</strong>
+                <p>Salary, Business, AOP, Pvt Ltd</p>
+
+              </div>
+            </a></li>
+            <li><a class="dropdown-item" href="#">
+              <div class="dd-icon">
+               <i class="fa fa-building"></i>
+              </div>
+              <div class="dd-text">
+               <strong>Business Registration</strong>
+               <p>Sole Prop, AOP, Pvt Ltd</p>
+              </div>
+            </a></li>
+            <li><a class="dropdown-item" href="#">
+              <div class="dd-icon">
+                  <i class="fa fa-receipt"></i>
+              </div>
+              <div class="dd-text">
+              <strong>Sales Tax Services</strong>
+               <p>Registration &amp; Activity Change</p>
+
+              </div>
+            </a></li>
+            <li><a class="dropdown-item" href="#">
+              <div class="dd-icon">
+                 <i class="fa fa-certificate"></i>
+              </div>
+              <div class="dd-text">
+       <strong>7E Certificate</strong>
+                <p>Capital Assets &amp; Property</p>
+
+              </div>
+            </a></li>
+            <li><a class="dropdown-item" href="#">
+              <div class="dd-icon">
+                  <i class="fa fa-toggle-on"></i>
+              </div>
+              <div class="dd-text">
+              <strong>8B Enabling / Disabling</strong>
+              <p>Withholding Tax Management</p>
+
+              </div>
+            </a></li>
+            <li><a class="dropdown-item" href="#">
+              <div class="dd-icon">
+                  <i class="fa fa-key"></i>
+              </div>
+              <div class="dd-text">
+               <strong>Password Recovery</strong>
+                <p>All Pakistan RTO</p>
+
+              </div>
+            </a></li>
+            <li><a class="dropdown-item" href="#">
+              <div class="dd-icon">
+                 <i class="fa fa-laptop-code"></i>
+              </div>
+              <div class="dd-text">
+                <strong>PSEB Registration</strong>
+              <p>Freelancer &amp; Company</p>
+
+              </div>
+            </a></li>
+            <hr class="dropdown-divider">
+            <li class="dd-text">
+              <a class="dropdown-item services" href="#">
+                 <i class="fa fa-arrow-right"></i><span>View All Services</span>
+              </a>
+            </li>
+            
+            
+            
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="how-it-works.php">How it Works</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Reviews</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">FAQ</a>
+        </li>
+        
+      </ul>
+      <div class="menu-btn">
+          <a class="started-btn" href="#"><i class="fab fa-whatsapp"></i>Whatsapp Us</a>
+      </div>
+      
+    </div>
+  </div>
+</nav>
+<!--how-it-works-->
+<section class="how-it-works">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-7">
+                <div class="process-hero-badge">
+                    <i class="fa fa-play-circle me-2"></i>
+                  Simple & Transparent
+                </div>
+                <h2 class="process-hero-title">
+                  How <span>It Works</span>
+
+                 </h2>
+                 <p>
+                  We've made FBR tax services simple, fast, and completely remote.<br>
+                   No office visits, no long queues, no complex paperwork.
+                   Just 4<br>
+                    simple steps to get your tax matters handled by experts.
+                 </p>
+                 <div class="process-cta">
+                    <a href="#" class="started-now">
+                        <i class="fab fa-whatsapp"></i>
+                        Get Started Now
+
+                    </a>
+                    <a href="#" class="view-steps">
+                        View Steps
+                        <i class="fa fa-arrow-down"></i>
+
+                    </a>
+
+                 </div>
+                 <div class="process-stats">
+                    <div class="process-stat-item">
+                        <h5 class="process-stat-number">
+                          4
+                        </h5>
+                        <p class="process-stat-lbl">
+                          Simple Steps
+                        </p>
+
+                    </div>
+                    <div class="process-stat-item">
+                        <h5 class="process-stat-number">
+                         24-48 hrs
+                        </h5>
+                        <p class="process-stat-lbl">
+                         Average Processing
+                        </p>
+
+                    </div>
+                    <div class="process-stat-item">
+                        <h5 class="process-stat-number">
+                         0
+                        </h5>
+                        <p class="process-stat-lbl">
+                         Office Visits
+                        </p>
+
+                    </div>
+
+                 </div>
+
+            </div>
+            <div class="col-lg-5">
+                <div class="process-img-wrap">
+                    <img src="images/hero-section_files/Tax-pana.png" class="tax-pana">
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!--trusted-bar-->
+<section class="trusted-bar">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="trusted-bar-inner">
+          <div class="trusted-items">
+            <i class="fa fa-check-circle"></i>No Office Visit Required
+
+
+          </div>
+          <div class="trusted-items">
+            <i class="fa fa-check-circle"></i>  WhatsApp-Based Service
+
+          </div>
+          <div class="trusted-items">
+            <i class="fa fa-check-circle"></i> 24-48 Hour Processing
+
+          </div>
+         
+           <div class="trusted-items">
+            <i class="fa fa-check-circle"></i>   100% FBR Compliant
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+<!--4-steps-->
+
+<section class="steps">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="steps-header text-center fade-up delay-1">
+                    <div class="step-lbl">
+                     The Process
+                    </div>
+                    <h2 class="step-title">
+                     Get Started in 4 Simple Steps
+                    </h2>
+                    <p class="step-desc">
+                     From first contact to completed filing — we handle everything for you.
+
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+   
+    <div class="col-lg-12">
+        <div class="step-card fade-up  delay-2">
+            <div class="row">
+                <div class="col-lg-2 d-flex  align-items-center">
+                    <div class="step-card-number">
+                        1
+
+                    </div>
+
+                </div>
+                <div class="col-lg-10">
+                    <h3>Contact Us on WhatsApp</h3>
+                    <p>Reach out to us on WhatsApp with your query. Whether you need NTN registration, tax return filing, business registration, or any other FBR service – we're here to help.
+
+                    </p>
+                    <div class="btn-tag">
+                       <a href="#" class="whatsapp-now">
+                        <i class="fab fa-whatsapp"></i>
+                        Whatsapp Now
+
+                       </a>
+                       <span class="tag">Free Consultation</span>
+                       <span class="tag">No Commitment</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+     <div class="col-lg-12">
+        <div class="step-card fade-up delay-3">
+            <div class="row">
+                <div class="col-lg-2 d-flex  align-items-center">
+                    <div class="step-card-number">
+                        2
+
+                    </div>
+
+                </div>
+                <div class="col-lg-10">
+                    <h3>Share Your Documents</h3>
+                    <p>Send us your documents securely via WhatsApp. We'll guide you on exactly what's needed based on your specific requirement. All documents are handled with strict confidentiality.
+                    </p>
+                    <div class="btn-tag">
+                      
+                       <span class="tag"><i class="fa fa-id-card"></i> CNIC</span>
+                       <span class="tag"> <i class="fa fa-file-invoice"></i>Salary Slips</span>
+                       <span class="tag"><i class="fa fa-building"></i> Business Docs</span>
+                       <span class="tag" ><i class="fa fa-shield-alt"></i>Secure Transfer</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+     <div class="col-lg-12">
+        <div class="step-card fade-up delay-4">
+            <div class="row">
+                <div class="col-lg-2 d-flex  align-items-center">
+                    <div class="step-card-number">
+                        3
+
+                    </div>
+
+                </div>
+                <div class="col-lg-10">
+                    <h3>We Process Everything</h3>
+                    <p>Our certified tax experts handle all FBR portal work, filing, and submissions on your behalf. We ensure accuracy, maximum tax benefits, and complete FBR compliance.
+
+                    </p>
+                    <div class="btn-tag">
+                      
+                       <span class="tag"><i class="fa fa-check"></i>FBR IRIS Filing</span>
+                       <span class="tag"><i class="fa fa-calculator"></i>Tax Calculation</span>
+                        <span class="tag"> <i class="fa fa-clock"></i>24-48 Hours</span>
+                       
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+     <div class="col-lg-12">
+        <div class="step-card fade-up delay-4">
+            <div class="row">
+                <div class="col-lg-2 d-flex  align-items-center">
+                    <div class="step-card-number">
+                        4
+
+                    </div>
+
+                </div>
+                <div class="col-lg-10">
+                    <h3>Receive Confirmation ✓</h3>
+                    <p>Get your NTN certificate, filed return acknowledgment, business registration documents, or any other required certificates delivered directly on WhatsApp/Email. You're 100% FBR compliant – stress-free!
+
+                    </p>
+                    <div class="btn-tag">
+                       
+                       <span class="tag"><i class="fa fa-certificate"></i>Official Certificates</span>
+                       <span class="tag"><i class="fa fa-envelope"></i>Email Delivery</span>
+                       <span class="tag"><i class="fa fa-check-circle"></i>100% Compliant</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+   </div>
+</section>
+<!--procesing--timeline-->
+<section class="timeline">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="timeline-header text-center fade-up delay-1">
+                    <div class="timeline-badge">
+                      Processing Times
+                    </div>
+                    <h2 class="timeline-title">
+                     How Long Does Each Service Take?
+                    </h2>
+                    <p class="timeline-desc">
+                     We pride ourselves on fast turnaround times
+                    </p>
+
+                </div>
+                 </div>
+                <div class="col-md-4 col-lg-4">
+                <div class="timeline-card fade-up delay-2">
+                    <div class="timeline-icon">
+                      <i class="fa fa-id-card"></i>
+                    </div>
+                    <h5 class="timeline-lbl">
+                       NTN Registration
+                    </h5>
+                    <p class="timeline-subtitle">
+                        Individual & Business
+                    </p>
+                    <div class="timeline-number">
+                       24-48 hrs
+                    </div>
+                    <span class="timeline-tag">
+                    Fastest Service
+                    </span>
+
+                </div>
+
+            </div>
+            <div class="col-md-4 col-lg-4">
+                <div class="timeline-card fade-up delay-3">
+                    <div class="timeline-icon">
+                     <i class="fa fa-file-invoice-dollar"></i>
+                    </div>
+                    <h5 class="timeline-lbl">
+                      Income Tax Return
+                    </h5>
+                    <p class="timeline-subtitle">
+                        Salaried & Business
+                    </p>
+                    <div class="timeline-number">
+                       24-48 hrs
+                    </div>
+                    <span class="timeline-tag">
+                    After Documents
+                    </span>
+
+                </div>
+
+            </div>
+            <div class="col-md-4 col-lg-4">
+                <div class="timeline-card fade-up delay-4">
+                    <div class="timeline-icon">
+                      <i class="fa fa-building"></i>
+                    </div>
+                    <h5 class="timeline-lbl">
+                      Business Registration
+                    </h5>
+                    <p class="timeline-subtitle">
+                        Sole Prop / Partnership / AOP
+                    </p>
+                    <div class="timeline-number">
+                     3-5 Days
+                    </div>
+                    <span class="timeline-tag">
+                  Includes Documentation
+                    </span>
+
+                </div>
+
+            </div>
+            <div class="col-md-4 col-lg-4">
+                <div class="timeline-card fade-up delay-4">
+                    <div class="timeline-icon">
+                     <i class="fa fa-receipt"></i>
+                    </div>
+                    <h5 class="timeline-lbl">
+                     Sales Tax Services
+                    </h5>
+                    <p class="timeline-subtitle">
+                        Registration & Filing
+                    </p>
+                    <div class="timeline-number">
+                      3-7 Days
+                    </div>
+                    <span class="timeline-tag">
+                   Monthly Filing Available
+                    </span>
+
+                </div>
+
+            </div>
+            <div class="col-md-4 col-lg-4">
+                <div class="timeline-card fade-up delay-4">
+                    <div class="timeline-icon">
+                      <i class="fa fa-certificate"></i>
+                    </div>
+                    <h5 class="timeline-lbl">
+                      7E Certificate
+                    </h5>
+                    <p class="timeline-subtitle">
+                        Capital Assets
+                    </p>
+                    <div class="timeline-number">
+                      24-72 hrs
+                    </div>
+                    <span class="timeline-tag">
+                   Fast Processing
+                    </span>
+
+                </div>
+
+            </div>
+            <div class="col-md-4 col-lg-4">
+                <div class="timeline-card fade-up delay-4">
+                    <div class="timeline-icon">
+                     <i class="fa fa-key"></i>
+                    </div>
+                    <h5 class="timeline-lbl">
+                     FBR Password Recovery
+                    </h5>
+                    <p class="timeline-subtitle">
+                        All Pakistan RTOs
+                    </p>
+                    <div class="timeline-number">
+                       24 hrs
+                    </div>
+                    <span class="timeline-tag">
+                    Quick Recovery
+                    </span>
+
+                </div>
+
+            </div>
+
+       
+        
+
+        </div>
+
+    </div>
+
+</section>
+<!--Why this process-->
+<section class="why-this-process">
+    <div class="container">
+       <div class="row">
+        <div class="col-lg-6 fade-up delay-1">
+            <div class="why-process-lbl">
+             Why It Works
+
+            </div>
+            <h2 class="why-process-title">
+            Why Our Process is Different
+            </h2>
+            <ul class="feature-list">
+                <li>
+                    <i class="fa fa-check-circle"></i>
+                    <h6>100% Remote</h6>
+                    <p>- No need to visit any FBR office or our office</p>
+                </li>
+                <li>
+                    <i class="fa fa-check-circle"></i>
+                    <h6>WhatsApp-Based</h6>
+                    <p>– Everything happens on WhatsApp, simple and convenient</p>
+                </li>
+                <li>
+                    <i class="fa fa-check-circle"></i>
+                    <h6>Expert Handling</h6>
+                    <p>– Certified tax professionals with 5+ years experience</p>
+                </li>
+                <li>
+                    <i class="fa fa-check-circle"></i>
+                    <h6>Fast Turnaround</h6>
+                    <p>– Most services completed within 24-48 hours</p>
+                </li>
+                <li>
+                    <i class="fa fa-check-circle"></i>
+                    <h6>Transparent Pricing</h6>
+                    <p>– No hidden charges, quote provided upfront</p>
+                </li>
+                <li>
+                    <i class="fa fa-check-circle"></i>
+                    <h6>Secure & Confidential</h6>
+                    <p>– Your documents are handled with strict privacy</p>
+                </li>
+                
+
+            </ul>
+
+        </div>
+        <div class="col-lg-6 fade-up delay-2">
+          
+                <div class="img-wraps">
+                    <img src="images/Tax-amico.png" alt="Tax-amico" class="tax-amicos">
+                    <div class="whyprocess-badge">
+                        <div class="whyprocess-badge-icon">
+                            <i class="fa fa-award"></i>
+
+                        </div>
+                        <div class="whyprocess-badge-text">
+                            <strong>WhatsApp Based</strong>
+                            <span>Simple & Convenient</span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+           
+
+        </div>
+
+       </div>
+
+    </div>
+
+</section>
+<!--Testimonal--section-->
+<section class="testimonal-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="testimonal-header text-center">
+                    <div class="testimonal-lbl">
+                       Client Experience
+                    </div>
+                    <h2 class="testimonal-title">
+                     What Our Clients Say About the Process
+
+                    </h2>
+                    <p class="testimonal-subtitle">
+                       Real experiences from clients who used our simple 4-step process
+                    </p>
+
+                </div>
+
+            </div>
+            <div class="col-lg-4">
+                <div class="testimonal-card">
+                    <div class="testimonal-reviews">
+                      ★★★★★
+                    </div>
+                    <p class="testimonal-desc">
+                       "The process was incredibly simple. I just messaged them on WhatsApp, 
+                       shared my documents, and got my NTN within 2 days. No hassle at all!"
+                    </p>
+                    <div class="author">
+                        <h5 class="author-name">
+                         Ahmed Raza
+                        </h5>
+                        <p class="author-role">
+                           Freelancer, Sargodha
+                         </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+</section>
+<!--Call-services-->
+<section class="call-services">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 text-center">
+        <h2>Ready to Experience Our Simple Process?</h2>
+        <p>Join 1,500+ satisfied clients who got their tax matters handled stress-free. Start your journey today!
+
+</p>
+           <a href="#" class="call-btn">
+            <i class="fab fa-whatsapp"></i> <span>Start on Whatsapp -Free Consultation</span>
+      
+
+           </a>
+           <p class="number">
+            📞 +92 349 5916066 &nbsp;|&nbsp; ✉️ info@trustedtaxation.com
+           </p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+<!--Footer-section-->
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="footer-logo">
+          <img src="images/logo-w.png" class="logo-w">
+
+        </div>
+        <p class="footer-desc">
+          
+          Sargodha's trusted FBR tax consultancy with 12+ years of expertise. 
+          Providing expert NTN registration, income tax filing, and business registration services in Sargodha 
+          and across Pakistan.
+        
+        </p>
+        <div class="footer-socials">
+          <a href="#" class="icon">
+            <i class="fab fa-facebook-f"></i>
+
+          </a>
+          <a href="#" class="icon">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="#" class="icon">
+           <i class="fab fa-linkedin-in"></i>
+
+          </a>
+          <a href="#" class="icon">
+           <i class="fab fa-whatsapp"></i>
+
+          </a>
+
+        </div>
+
+      </div>
+      <div class="col-lg-2 col-md-6 col-6">
+        <h3 class="footer-services">SERVICES</h3>
+        <ul>
+          <li>
+            <a href="#" class="footer-links">NTN Registration</a>
+          </li>
+           <li>
+            <a href="#" class="footer-links">Tax Return Filing</a>
+           </li>
+            <li>
+              <a href="#" class="footer-links">Business Registration</a>
+            </li>
+             <li>
+              <a href="#" class="footer-links">Sales Tax/GST Registeration</a>
+             </li>
+              <li>
+                <a href="#" class="footer-links">PRA Registeration</a>
+              </li>
+               <li>
+                <a href="#" class="footer-links">DFNBP Certificate</a>
+              </li>
+             
+        </ul>
+
+      </div>
+      <div class="col-lg-2 col-md-6 col-6">
+        <h3 class="footer-services">COMPANY</h3>
+        <ul>
+          <li>
+            <a href="index.php" class="footer-links">Home</a>
+          </li>
+           <li>
+            <a href="about.php" class="footer-links">About Us</a>
+           </li>
+            <li>
+              <a href="how-it-works.php" class="footer-links">How It Works</a>
+            </li>
+             <li>
+              <a href="#" class="footer-links">Reviews</a>
+             </li>
+              <li>
+                <a href="#" class="footer-links">FAQ</a>
+              </li>
+             
+        </ul>
+
+      </div>
+       <div class="col-lg-4">
+         <h3 class="footer-services">GET IN TOUCH</h3>
+         <div class="footer-contact">
+          <div class="footer-item">
+            <i class="fab fa-whatsapp"></i>
+            <a href="#" target="_blank" class="footer-links"> 92 349 5916066</a>
+
+          </div>
+          <div class="footer-item">
+           <i class="fa fa-envelope"></i>
+           <a href="#" class="footer-links">info@trustedtaxation.com</a>
+          </div>
+          <div class="footer-item">
+           <i class="fa fa-globe"></i>
+           <a href="#" target="_blank" class="footer-links">FBR Pakistan Portal</a>
+
+          </div>
+          <div class="footer-item">
+           <i class="fa fa-map-marker-alt"></i>
+           <span>Sargodha, Punjab, Pakistan</span>
+
+          </div>
+           <div class="footer-item">
+          <i class="fa fa-clock"></i>
+          <span>Mon - Sat: 9:00 AM - 8:00 PM</span>
+
+          </div>
+
+         </div>
+      </div>
+      <hr class="footer-divider">
+      <div class="footer-bottom">
+       <div class="row">
+        <div class="col-sm-6">
+           <p>© 2024 Trusted Taxation. All Rights Reserved.</p>
+        
+
+        </div>
+        <div class="col-sm-6 text-end">
+          <p>Developed By<a href="#" target="_blank" class="softileo"><span>Softileo</span></a></p>
+        </div>
+
+       </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</footer>
+
+
+    <!--jquery-->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script>
+const elements = document.querySelectorAll('.fade-up');
+
+const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add('show');
+        }
+    });
+}, {
+    threshold: 0.2
+});
+
+elements.forEach(el => {
+    observer.observe(el);
+});
+</script>
+  </body>
+  </html>
