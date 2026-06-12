@@ -1,1 +1,980 @@
-# trustedtaxation
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <!--Meta-Tag-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Trusted Taxation</title>
+    <!--font kit-->
+    <script src="https://kit.fontawesome.com/9d2c137d7e.js" crossorigin="anonymous"></script>
+    <!--google fonts-->
+    
+    <!--Bootstrap-cdns-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+     <!--fonts-->
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+     <!--style-->
+     <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <!--nav-bar-->
+    <nav class="navbar navbar-expand-lg">
+  <div class="container">
+    <a class="navbar-brand" href="index.php">
+      <img src="images/logo.png" class="trusted-logo">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mx-auto gap-1">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.php">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.php">About</a>
+        </li>
+        
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Services
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">
+              <div class="dd-icon">
+                  <i class="fa fa-id-card"></i>
+              </div>
+              <div class="dd-text">
+                <strong>NTN Registration</strong>
+                <p>Individual &amp; Business NTN</p>
+
+              </div>
+            </a></li>
+            <li><a class="dropdown-item" href="#">
+              <div class="dd-icon">
+                  <i class="fa fa-file-invoice-dollar"></i>
+              </div>
+              <div class="dd-text">
+             <strong>Income Tax Return Filing</strong>
+                <p>Salary, Business, AOP, Pvt Ltd</p>
+
+              </div>
+            </a></li>
+            <li><a class="dropdown-item" href="#">
+              <div class="dd-icon">
+               <i class="fa fa-building"></i>
+              </div>
+              <div class="dd-text">
+               <strong>Business Registration</strong>
+               <p>Sole Prop, AOP, Pvt Ltd</p>
+              </div>
+            </a></li>
+            <li><a class="dropdown-item" href="#">
+              <div class="dd-icon">
+                  <i class="fa fa-receipt"></i>
+              </div>
+              <div class="dd-text">
+              <strong>Sales Tax Services</strong>
+               <p>Registration &amp; Activity Change</p>
+
+              </div>
+            </a></li>
+            <li><a class="dropdown-item" href="#">
+              <div class="dd-icon">
+                 <i class="fa fa-certificate"></i>
+              </div>
+              <div class="dd-text">
+       <strong>7E Certificate</strong>
+                <p>Capital Assets &amp; Property</p>
+
+              </div>
+            </a></li>
+            <li><a class="dropdown-item" href="#">
+              <div class="dd-icon">
+                  <i class="fa fa-toggle-on"></i>
+              </div>
+              <div class="dd-text">
+              <strong>8B Enabling / Disabling</strong>
+              <p>Withholding Tax Management</p>
+
+              </div>
+            </a></li>
+            <li><a class="dropdown-item" href="#">
+              <div class="dd-icon">
+                  <i class="fa fa-key"></i>
+              </div>
+              <div class="dd-text">
+               <strong>Password Recovery</strong>
+                <p>All Pakistan RTO</p>
+
+              </div>
+            </a></li>
+            <li><a class="dropdown-item" href="#">
+              <div class="dd-icon">
+                 <i class="fa fa-laptop-code"></i>
+              </div>
+              <div class="dd-text">
+                <strong>PSEB Registration</strong>
+              <p>Freelancer &amp; Company</p>
+
+              </div>
+            </a></li>
+            <hr class="dropdown-divider">
+            <li class="dd-text">
+              <a class="dropdown-item services" href="#">
+                 <i class="fa fa-arrow-right"></i><span>View All Services</span>
+              </a>
+            </li>
+            
+            
+            
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="how-it-works.php">How it Works</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Reviews</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">FAQ</a>
+        </li>
+        
+      </ul>
+      <div class="menu-btn">
+          <a class="started-btn" href="#"><i class="fab fa-whatsapp"></i>Whatsapp Us</a>
+      </div>
+      
+    </div>
+  </div>
+</nav>
+<!--hero-section-->
+<section class="hero-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-7">
+        <div class="hero-content">
+          <div class="hero-badge">
+            <i class="fa fa-shield-halved"></i>
+           <span>FBR TAX CONSULTANTS - SARGODHA, PAKISTAN</span> 
+          
+          </div>
+          <h2 class="hero-title">
+           
+            Sargodha's Most<br class="hero-br"> 
+            <span>Trusted</span>
+             FBR Tax &amp; <br class="hero-br">
+             NTN Experts
+          
+          </h2>
+          <p class="hero-subtitle">
+            
+            Expert FBR NTN services in Sargodha — NTN registration,<br class="subtitle-br">
+             income tax returns, and business registration handled by <br class="subtitle-br">
+             certified professionals. Fast, accurate, 100% FBR compliant.
+          
+
+          </p>
+          <div class="hero-cta">
+            <a href="#" class="hero-consultation">
+              <i class="fab fa-whatsapp"></i> Get Free Consultation
+            </a>
+            <a href="#" class="view-series">
+              View Services<i class="fa fa-arrow-right"></i>
+            </a>
+
+          </div>
+          <div class="hero-stats">
+            <div class="hero-stat-item">
+              <div class="hero-stat-number">1500+</div>
+              <div class="hero-stat-lbl">Statisfied Clients</div>
+
+            </div>
+            <div class="hero-stat-item">
+              <div class="hero-stat-number">5+</div>
+              <div class="hero-stat-lbl">Years Experience</div>
+
+            </div>
+            <div class="hero-stat-item">
+              <div class="hero-stat-number">100%</div>
+              <div class="hero-stat-lbl">FBR Complaints</div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+      <div class="col-lg-5">
+        <div class="hero-img">
+          <img src="images/hero-section_files/Tax-pana.png" class="tax-pana">
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+<!--trusted-bar-->
+<section class="trusted-bar">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="trusted-bar-inner">
+          <div class="trusted-items">
+            <i class="fa fa-check-circle"></i> NTN Registration
+
+          </div>
+          <div class="trusted-items">
+            <i class="fa fa-check-circle"></i>  Income Tax Returns
+
+          </div>
+          <div class="trusted-items">
+            <i class="fa fa-check-circle"></i>  Business Registration
+
+          </div>
+          <div class="trusted-items">
+            <i class="fa fa-check-circle"></i>  Sales Tax/GST
+
+          </div>
+           <div class="trusted-items">
+            <i class="fa fa-check-circle"></i>   Based in Sargodha
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+<!--About-us-->
+<section class="about-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-5">
+        <div class="about-img fade-up delay-1">
+          <img src="images/Tax-amico.png" class="tax-amico">
+           <div class="about-badge">
+          <div class="about-badge-icon">
+              <i class="fa fa-users"></i>
+          </div>
+          <div class="about-text">
+            <strong>1,500+</strong>
+            <span>Happy Clients Nationwide</span>
+          </div>
+
+        </div>
+        </div>
+        
+
+      </div>
+      <div class="col-lg-7">
+       
+          <div class="visible fade-up delay-2">
+           <div class="about-label">
+          ABOUT US
+
+        </div>
+        <h2 class="about-title">
+          Sargodha's Trusted FBR Tax Consultants Since 2021
+
+         </h2>
+        <p class="about-text">
+          Trusted Taxation is a <span>Sargodha-based FBR tax consultancy </span>with over
+           <span>12 years of hands-on experience</span> with the Federal Board of Revenue (FBR). 
+           We provide expert FBR NTN services in Sargodha and across Pakistan — making tax registration 
+           and filing simple, affordable, and stress-free for individuals, freelancers, and businesses.
+
+        </p>
+
+         
+       
+          <div class="about-features">
+          <div class="about-feature-icon">
+            <i class="fa fa-award"></i>
+
+          </div>
+          <div class="about-feature-text">
+            <h5>12+ Years of Expertise</h5>
+            <p>Deep knowledge of FBR IRIS portal, tax laws, and Pakistani tax compliance requirements.</p>
+
+          </div>
+
+        </div>
+        <div class="about-features">
+          <div class="about-feature-icon">
+            <i class="fa fa-map-marked-alt"></i>
+
+          </div>
+          <div class="about-feature-text">
+            <h5>All Pakistan Coverage</h5>
+            <p>Serving clients across all provinces — Lahore, Karachi, Islamabad, Peshawar, and beyond</p>
+
+          </div>
+
+        </div>
+        <div class="about-features">
+          <div class="about-feature-icon">
+           <i class="fa fa-lock"></i>
+
+          </div>
+          <div class="about-feature-text">
+            <h5>Secure & Confidential</h5>
+            <p>Your personal and financial information is handled with strict confidentiality and security.</p>
+
+          </div>
+
+        </div>
+        <div class="about-btn">
+            <a href="#" class="talk-expert">
+              Talk to an Expert<i class="fa fa-arrow-right ms-1"></i>
+            </a>
+        </div>
+
+        </div>
+        
+
+       
+
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+<!--section-services-->
+<section class="services">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="service-header fade-up delay-1">
+        <div class="service-badge">
+        OUR SERVICES
+        </div>
+        <h2 class="service-title">
+        Complete FBR Tax Solutions
+        </h2>
+        <p class="service-desc mx-auto">
+         Complete FBR tax services in Sargodha and across Pakistan — all under <br>
+         one roof, 
+         handled by certified professionals with 12+ years of
+         <br> experience.
+        </p>
+
+      </div>
+
+      </div>
+      <div class="col-md-6 col-lg-4 col-12">
+        <a href="#" class="service-card fade-up">
+        <div class="service-icon">
+          <i class="fa fa-id-card"></i>
+        </div>
+        <h4>NTN Registration</h4>
+        <p>Get your FBR NTN registered quickly in Sargodha — for salaried individuals,
+           freelancers (Fiverr/Upwork), and business owners. Fast processing through FBR IRIS portal.</p>
+        <div class="service-tag">
+          Individuals & Business
+
+        </div>
+       </a>
+        
+      </div>
+      <div class="col-md-6 col-lg-4 col-12">
+        <a href="#" class="service-card fade-up">
+        <div class="service-icon">
+          <i class="fa fa-file-invoice-dollar"></i>
+        </div>
+        <h4>Income Tax Return Filing</h4>
+       <p>Professional income tax return filing for salary persons, business owners, 
+       AOPs (Association of Persons), and Pvt Ltd companies — all FBR deadlines met.</p>
+        <div class="service-tag">
+          All Categories
+
+        </div>
+       </a>
+
+      </div>
+      <div class="col-md-6 col-lg-4 col-12">
+        <a href="#" class="service-card fade-up">
+        <div class="service-icon">
+          <i class="fa fa-building"></i>
+        </div>
+        <h4>Business Registration</h4>
+        <p>Business registration services in Sargodha — sole proprietor, partnership, AOP, 
+          and Pvt Ltd company incorporation with complete FBR and SECP compliance.</p>
+        <div class="service-tag">
+         All Business Types
+
+        </div>
+       </a>
+      </div>
+      <div class="col-md-6 col-lg-4 col-12">
+         <a href="#" class="service-card fade-up ">
+        <div class="service-icon">
+<i class="fa fa-certificate"></i>
+        </div>
+        <h4>DFNBP Certificate</h4>
+        <p>Digital FNBP certificate registration. Essential for businesses and 
+          individuals requiring DFNBP certification.</p>
+        <div class="service-tag">
+         Digital FNBP Registration
+
+        </div>
+       </a>
+
+      </div>
+      <div class="col-md-6 col-lg-4 col-12 ">
+        <a href="#" class="service-card fade-up">
+        <div class="service-icon">
+          <i class="fa fa-receipt"></i>
+        </div>
+       <h4>Sales Tax / GST Registration</h4>
+        <p>Complete sales tax and GST registration services in Sargodha. 
+          Get your STRN, file monthly returns, and stay FBR compliant.</p>
+        <div class="service-tag">
+         FBR Sales Tax &amp; GST
+
+        </div>
+       </a>
+
+      </div>
+      <div class="col-md-6 col-lg-4 col-12">
+         <a href="#" class="service-card fade-up">
+        <div class="service-icon">
+          <i class="fa fa-building"></i>
+        </div>
+        <h4>PRA Registration</h4>
+       <p>Punjab Revenue Authority registration services. Get registered with PRA 
+        for Punjab-specific tax compliance and services.</p>
+        <div class="service-tag">
+         Punjab Revenue Authority
+
+        </div>
+       </a>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+<!--section-process-->
+<section class="process-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="process-header fade-up delay-1">
+          <div class="process-badge">
+             <span>How It Works</span>
+          </div>
+          <h2 class="process-title">
+            Get Started in 4 Simple Steps
+
+          </h2>
+          <p class="process-desc mx-auto">
+            From first contact to completed filing — we handle everything for you.
+
+          </p>
+
+        </div>
+
+      </div>
+      <div class="col-sm-3">
+        <div class="process-step fade-up delay-1">
+          <div class="process-step-number"><span>1</span></div>
+          <h4>Contact Us</h4>
+          <p>Reach out via WhatsApp with your query. Free initial consultation, no commitment required.</p>
+
+        </div>
+
+      </div>
+      <div class="col-sm-3">
+        <div class="process-step fade-up  delay-2">
+          <div class="process-step-number"><span>2</span></div>
+          <h4>Share Documents</h4>
+          <p>Send us your CNIC, salary slips, or business documents securely. We guide you on exactly what's 
+            needed.</p>
+
+        </div>
+
+      </div>
+      <div class="col-sm-3">
+        <div class="process-step fade-up delay-3">
+          <div class="process-step-number"><span>3</span></div>
+          <h4>We Process</h4>
+          <p>Our experts handle all FBR portal work, filing, and submissions on
+           your behalf — accurately and on time.</p>
+
+        </div>
+
+      </div>
+      <div class="col-sm-3">
+        <div class="process-step fade-up delay-4">
+          <div class="process-step-number"><span>4</span></div>
+          <h4>Done ✓</h4>
+          <p>Receive confirmation, certificates, and full documentation. You're 100% FBR compliant — stress-free!</p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+<!--Why choose us-->
+<section class="why-choose-us">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-5">
+        <div class="why-label fade-up delay-1">
+           Why Choose Us
+        </div>
+        <h2 class="why-title fade-up delay-1">
+          Sargodha's Real Tax Experts. Real Results. No Hassle.
+
+        </h2>
+        <p class="why-desc fade-up delay-1">
+          As Sargodha's leading FBR tax consultants, we've simplified 
+          <br> complex system so you never have to visit any FBR <br>
+          office, deal with confusing portals, or wait in long queues. <br>
+          We handle everything remotely — you just 
+          share documents via WhatsApp.
+
+        </p>
+        <div class="why-btn fade-up delay-1">
+          <a href="#" class="started-free">
+            <i class="fab fa-whatsapp"></i> <span>Start Now — It's Free</span>
+          
+
+          </a>
+
+        </div>
+
+      </div>
+      <div class="col-lg-7">
+         <div class="why-card-inner fade-up delay-2">
+          <div class="why-card">
+          <div class="why-icon">
+            <i class="fa fa-user-tie"></i>
+
+          </div>
+          <div class="why-content">
+              <h4>Certified Tax Professionals</h4>
+             <p> Our team holds deep expertise in FBR tax law and has handled thousands of filings 
+              across all income categories and business types.</p>
+            </div>
+
+        </div>
+         <div class="why-card">
+          <div class="why-icon">
+            <i class="fa fa-user-tie"></i>
+
+          </div>
+          <div class="why-content">
+              <h4>Certified Tax Professionals</h4>
+             <p> Our team holds deep expertise in FBR tax law and has handled thousands of filings 
+              across all income categories and business types.</p>
+            </div>
+
+        </div>
+         <div class="why-card">
+          <div class="why-icon">
+            <i class="fa fa-user-tie"></i>
+
+          </div>
+          <div class="why-content">
+              <h4>Certified Tax Professionals</h4>
+              <p> Our team holds deep expertise in FBR tax law and has handled thousands of filings 
+              across all income categories and business types.</p>
+            </div>
+
+        </div>
+         <div class="why-card">
+          <div class="why-icon">
+            <i class="fa fa-user-tie"></i>
+
+          </div>
+          <div class="why-content">
+              <h4>Certified Tax Professionals</h4>
+              <p> Our team holds deep expertise in FBR tax law and has handled thousands of filings 
+              across all income categories and business types.</p>
+            </div>
+
+        </div>
+
+         </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+<!--Clients-reviews-->
+<section class="reviews">
+  <div class="container">
+    <div class="row g-3">
+      <div class="col-sm-12">
+        <div class="review-header fade-up delay-1">
+        <div class="review-badge">
+        CLIENT REVIEWS
+        </div>
+        <h2 class="review-title">
+       1,500+ Satisfied Clients Across Pakistan
+        </h2>
+        <p class="review-desc mx-auto">
+         Real experiences from real clients in Sargodha and across Pakistan who trusted us 
+         with their FBR tax needs.
+        </p>
+
+      </div>
+
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12 fade-up delay-2 mt-4">
+        <div class="review-card">
+          
+          <div class="review-stars">★★★★★</div>
+          
+          <div class="review-text">
+           "Trusted Taxation made my tax filing incredibly simple. As a freelancer,
+            I was confused about NTN registration — they explained everything and 
+            handled it all within 24 hours!"
+          </div>
+          <div class="review-author">
+            <img src="images/hero-section_files/Sadia_Iqbal.jpg" class="review-avatar">
+            <div class="review-name">Ali Raza</div>
+            <div class="review-role">Freelancer, Lahore</div>
+
+          </div>
+
+        </div>
+
+      </div>
+       <div class="col-lg-4 col-md-6  col-sm-12 fade-up delay-2 mt-4">
+        <div class="review-card">
+          
+          <div class="review-stars">★★★★★</div>
+          
+          <div class="review-text">
+           "Trusted Taxation made my tax filing incredibly simple. As a freelancer,
+            I was confused about NTN registration — they explained everything and 
+            handled it all within 24 hours!"
+          </div>
+          <div class="review-author">
+            <img src="images/hero-section_files/Sadia_Iqbal.jpg" class="review-avatar">
+            <div class="review-name">Ali Raza</div>
+            <div class="review-role">Freelancer, Lahore</div>
+
+          </div>
+
+        </div>
+
+      </div>
+       <div class="col-lg-4 col-md-6  col-sm-12 fade-up delay-2 mt-4">
+        <div class="review-card">
+          
+          <div class="review-stars">★★★★★</div>
+          
+          <div class="review-text">
+           "Trusted Taxation made my tax filing incredibly simple. As a freelancer,
+            I was confused about NTN registration — they explained everything and 
+            handled it all within 24 hours!"
+          </div>
+          <div class="review-author">
+            <img src="images/hero-section_files/Sadia_Iqbal.jpg" class="review-avatar">
+            <div class="review-name">Ali Raza</div>
+            <div class="review-role">Freelancer, Lahore</div>
+
+          </div>
+
+        </div>
+
+      </div>
+       <div class="col-lg-4 col-md-6 col-sm-12 fade-up delay-2 mt-4">
+        <div class="review-card">
+          
+          <div class="review-stars">★★★★★</div>
+          
+          <div class="review-text">
+           "Trusted Taxation made my tax filing incredibly simple. As a freelancer,
+            I was confused about NTN registration — they explained everything and 
+            handled it all within 24 hours!"
+          </div>
+          <div class="review-author">
+            <img src="images/hero-section_files/Sadia_Iqbal.jpg" class="review-avatar">
+            <div class="review-name">Ali Raza</div>
+            <div class="review-role">Freelancer, Lahore</div>
+
+          </div>
+
+        </div>
+
+      </div>
+       <div class="col-lg-4 col-md-6 col-sm-12  fade-up delay-2 mt-4">
+        <div class="review-card">
+          
+          <div class="review-stars">★★★★★</div>
+          
+          <div class="review-text">
+           "Trusted Taxation made my tax filing incredibly simple. As a freelancer,
+            I was confused about NTN registration — they explained everything and 
+            handled it all within 24 hours!"
+          </div>
+          <div class="review-author">
+            <img src="images/hero-section_files/Sadia_Iqbal.jpg" class="review-avatar">
+            <div class="review-name">Ali Raza</div>
+            <div class="review-role">Freelancer, Lahore</div>
+
+          </div>
+
+        </div>
+
+      </div>
+       <div class="col-lg-4 col-md-6 col-sm-12 fade-up delay-2 mt-4">
+        <div class="review-card">
+          
+          <div class="review-stars">★★★★★</div>
+          
+          <div class="review-text">
+           "Trusted Taxation made my tax filing incredibly simple. As a freelancer,
+            I was confused about NTN registration — they explained everything and 
+            handled it all within 24 hours!"
+          </div>
+          <div class="review-author">
+            <img src="images/hero-section_files/Sadia_Iqbal.jpg" class="review-avatar">
+            <div class="review-name">Ali Raza</div>
+            <div class="review-role">Freelancer, Lahore</div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+<!--quote strip-->
+<section class="quote-strips">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 text-center">
+        <div class="quote">
+          "Paying taxes is our duty — 
+          <span>paving the way for a 
+            <br class="br">stronger economy</span>
+           and a brighter future for Pakistan."
+        </div>
+        <p class="author">
+          -MUJAHID FAROOQ, FOUNDER, TRUSTED TAXATION</p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+<!--Call-services-->
+<section class="call-services">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 text-center">
+        <h2>Need FBR NTN Services in Sargodha?</h2>
+        <p>Join 1,500+ satisfied clients in Sargodha and across Pakistan. Get your NTN registered,
+           tax return filed, and business registered — quickly and professionally.</p>
+           <a href="#" class="call-btn">
+            <i class="fab fa-whatsapp"></i> <span>Get Started on WhatsApp</span>
+      
+
+           </a>
+           <p class="number">
+            📞 +92 349 5916066 &nbsp;|&nbsp; ✉️ info@trustedtaxation.com
+           </p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+<!--Footer-section-->
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="footer-logo">
+          <img src="images/logo-w.png" class="logo-w">
+
+        </div>
+        <p class="footer-desc">
+          
+          Sargodha's trusted FBR tax consultancy with 12+ years of expertise. 
+          Providing expert NTN registration, income tax filing, and business registration services in Sargodha 
+          and across Pakistan.
+        
+        </p>
+        <div class="footer-socials">
+          <a href="#" class="icon">
+            <i class="fab fa-facebook-f"></i>
+
+          </a>
+          <a href="#" class="icon">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="#" class="icon">
+           <i class="fab fa-linkedin-in"></i>
+
+          </a>
+          <a href="#" class="icon">
+           <i class="fab fa-whatsapp"></i>
+
+          </a>
+
+        </div>
+
+      </div>
+      <div class="col-lg-2 col-md-6 col-6">
+        <h3 class="footer-services">SERVICES</h3>
+        <ul>
+          <li>
+            <a href="#" class="footer-links">NTN Registration</a>
+          </li>
+           <li>
+            <a href="#" class="footer-links">Tax Return Filing</a>
+           </li>
+            <li>
+              <a href="#" class="footer-links">Business Registration</a>
+            </li>
+             <li>
+              <a href="#" class="footer-links">Sales Tax/GST Registeration</a>
+             </li>
+              <li>
+                <a href="#" class="footer-links">PRA Registeration</a>
+              </li>
+               <li>
+                <a href="#" class="footer-links">DFNBP Certificate</a>
+              </li>
+             
+        </ul>
+
+      </div>
+      <div class="col-lg-2 col-md-6 col-6">
+        <h3 class="footer-services">COMPANY</h3>
+        <ul>
+          <li>
+            <a href="index.php" class="footer-links">Home</a>
+          </li>
+           <li>
+            <a href="about.php" class="footer-links">About Us</a>
+           </li>
+            <li>
+              <a href="how-it-works.php" class="footer-links">How It Works</a>
+            </li>
+             <li>
+              <a href="#" class="footer-links">Reviews</a>
+             </li>
+              <li>
+                <a href="#" class="footer-links">FAQ</a>
+              </li>
+             
+        </ul>
+
+      </div>
+       <div class="col-lg-4">
+         <h3 class="footer-services">GET IN TOUCH</h3>
+         <div class="footer-contact">
+          <div class="footer-item">
+            <i class="fab fa-whatsapp"></i>
+            <a href="#" target="_blank" class="footer-links"> 92 349 5916066</a>
+
+          </div>
+          <div class="footer-item">
+           <i class="fa fa-envelope"></i>
+           <a href="#" class="footer-links">info@trustedtaxation.com</a>
+          </div>
+          <div class="footer-item">
+           <i class="fa fa-globe"></i>
+           <a href="#" target="_blank" class="footer-links">FBR Pakistan Portal</a>
+
+          </div>
+          <div class="footer-item">
+           <i class="fa fa-map-marker-alt"></i>
+           <span>Sargodha, Punjab, Pakistan</span>
+
+          </div>
+           <div class="footer-item">
+          <i class="fa fa-clock"></i>
+          <span>Mon - Sat: 9:00 AM - 8:00 PM</span>
+
+          </div>
+
+         </div>
+      </div>
+      <hr class="footer-divider">
+      <div class="footer-bottom">
+       <div class="row">
+        <div class="col-sm-6">
+           <p>© 2024 Trusted Taxation. All Rights Reserved.</p>
+        
+
+        </div>
+        <div class="col-sm-6 text-end">
+          <p>Developed By<a href="#" target="_blank" class="softileo"><span>Softileo</span></a></p>
+        </div>
+
+       </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</footer>
+
+
+
+
+
+  <!--jquery-->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script>
+const elements = document.querySelectorAll('.fade-up');
+
+const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add('show');
+        }
+    });
+}, {
+    threshold: 0.2
+});
+
+elements.forEach(el => {
+    observer.observe(el);
+});
+</script>
+
+
+  </body>
+</html>
