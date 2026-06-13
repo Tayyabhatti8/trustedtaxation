@@ -2182,7 +2182,10 @@ margin: 0px 0px 80px 130px !important;
     
 }
 @media (max-width: 576px) {
-
+   
+.about-img .tax-amico{
+    height: 400px;
+}
     .trusted-bar-inner{
         gap: 20px;
     }
